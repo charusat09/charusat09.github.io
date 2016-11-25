@@ -7,10 +7,7 @@ permalink: /about/
 <img class="col one right" src="/img/prof_pic.jpg">
 
 <br/>
-Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder.
-
-Link to your social media connections, too. This theme is set up to use <a href="http://fortawesome.github.io/Font-Awesome/" target="blank">Font Awesome icons</a>, like the ones below. Add your facebook, twitter, linkedin, or just disable all of them.
-
+Jack Sparrow is my favorite character. In my free time I love to watch Pirates of the Caribbean series. I also love to do coding as much as I love Jack. He inspires me to do what I love to do, solve real world problems using technologies. I am very friendly person. Please feel free to connect me on followings :-)
 
 <br/>
 <hr/>

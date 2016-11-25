@@ -33,16 +33,16 @@ This button does ajax call to create method of counter controller. The job for c
 {% highlight ruby %}
 
 def create
-  5.times do |count|
-    @count = HardWorker.new.perform(count)
-  end
+  @count = HardWorker.new.perform
 end
 
 class HardWorker
   include Sidekiq::Worker
-  def perform(count)
-    sleep(1)
-    Redis.new.set("counter", count)
+  def perform
+    5.times do |count|
+      sleep(1)
+      Redis.new.set("counter", count)
+    end
   end
 end
 
