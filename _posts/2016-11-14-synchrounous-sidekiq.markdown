@@ -6,7 +6,7 @@ description: Transfer time taking servise to worker and use it's response on UI
 ---
 #### Background:
 <br/>
-I was working on project where I had to update user account on third party server. This process was taking long time(i.e. 3-5 secs). Hence we decided to pass this service on Sidekiq worker and proceed ahead in request flow. Meantime UI had loader that informed user to wait for some time. As soon as we got response fron third party server, we have to inform UI. I tried server solutions and then I came to use of Redis and Synchronous Sidekiq Worker to rescue me.
+I was working on project where I had to update user account on third party server. This process was taking long time(i.e. 3-5 secs). Hence we decided to pass this service on Sidekiq worker and proceed ahead in request flow. Meantime UI had loader that informed user to wait for some time. As soon as we got response from third party server, we have to inform UI. I tried server solutions and then I came to use of Redis and Synchronous Sidekiq Worker to rescue me.
 
 #### Solution:
 <br/>
