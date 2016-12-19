@@ -12,6 +12,7 @@ Recently I started using BigCommerce. I found very few resources about BigCommer
 <br/>
 refer <a href="https://login.bigcommerce.com"> BigCommerce </a> site and create account using your email address. BigCommerce will refer you as technical parter.
 <br/>
+
 #### Step 2: Create an App
 <br/>
 You need to create application at <a href="https://devtools.bigcommerce.com/my/apps"> BigCommerce DevTool Site</a>. You should be careful while filling point no 4, Technical Details. Keep following in your mind;
