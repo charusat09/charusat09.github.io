@@ -19,6 +19,8 @@ Jack Sparrow is my favorite character. In my free time I love to watch Pirates o
 	<a href="https://twitter.com/jlMayur" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
+<center><a href="http://mayurkumar.info">mayurkumar</a></center>
+
 <!-- <div class="col three caption">
 	You can even add a little note about which of these is the best way to reach you.
 </div> -->

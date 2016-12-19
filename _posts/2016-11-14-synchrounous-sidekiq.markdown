@@ -97,3 +97,5 @@ This solution has one limitation.
 </ul>
 
 You can find code here <a href="https://github.com/charusat09/sync_sidekiq">on GitHub</a>
+
+<center><a href="http://mayurkumar.info" target="_blank">mayurkumar</a></center>
