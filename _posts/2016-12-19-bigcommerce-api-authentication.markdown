@@ -24,10 +24,12 @@ You need to create application at <a href="https://devtools.bigcommerce.com/my/a
     You should able to access server log of that URL. BigCommerce will send you temporarry code to that URL. You can get it by server log.
   </li>
 </ul>
+
 #### Step 3: Install your App
 <br/>
 Now, go to your store adimn page. This is the same page you have landed on in step 1 after signup. Go to Apps > My Apps > My Draft App from left side navigator. Find your application there which you have created in above step. Now, You will get 'Learn More' link by hovering mouse over your app. Click on it. You will get install button, click on it. Then, you will be asked to confirm your installation, confirm it.
 <br/>
+
 #### Step 4: Get Access Token
 <br/>
 You will get temporary code via your Auth callback URL which you have provided in step 2. You can get useful data from your server log. It  includes temporary code, scopes and store hash as a context, may look like this;
