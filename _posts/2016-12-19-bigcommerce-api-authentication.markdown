@@ -49,7 +49,7 @@ Now, use any tool that can send post request to BigCommerce. I am using <a href=
 
 {% highlight javascript %}
 
-https://login.bigcommerce.com?client_id=4cdm6fjsg9inh7dl4http2g6m94qyw1&client_secret=bc8ai7j25d6h3rfoiwbbvpl3lqwjxlk&code=d3mb7lnt511jb1vl3o933ojeuy8f9r9&scope=store_v2_content+store_v2_customers+store_v2_customers_login+store_v2_default+store_v2_information_read_only+store_v2_marketing+store_v2_orders+store_v2_products+users_basic_information&grant_type=authorization_code&redirect_uri=https://9a010f27.ngrok.io&context=stores/nlxse6w1dd
+https://login.bigcommerce.com/oauth2/token?client_id=4cdm6fjsg9inh7dl4http2g6m94qyw1&client_secret=bc8ai7j25d6h3rfoiwbbvpl3lqwjxlk&code=d3mb7lnt511jb1vl3o933ojeuy8f9r9&scope=store_v2_content+store_v2_customers+store_v2_customers_login+store_v2_default+store_v2_information_read_only+store_v2_marketing+store_v2_orders+store_v2_products+users_basic_information&grant_type=authorization_code&redirect_uri=https://9a010f27.ngrok.io&context=stores/nlxse6w1dd
 
 {% endhighlight %}
 
