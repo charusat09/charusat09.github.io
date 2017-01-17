@@ -11,7 +11,9 @@ github_username:  github_username
 # Build settings
 markdown: kramdown
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 highlighter: rouge
 

@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  Update UI using Sidekiq Worker response
+title:  How to update frontend using Sidekiq Worker response
 date:   2016-11-13 16:00:00
-description: Transfer time taking servise to worker and use it's response on UI
+description: how to continuously update frontend using sidekiq worker response
+permalink: /update_frontend_using_sidekiq_worker/
 ---
 #### Background:
 <br/>
-I was working on project where I had to update user account on third party server. This process was taking long time(i.e. 3-5 secs). Hence we decided to pass this service on Sidekiq worker and proceed ahead in request flow. Meantime UI had loader that informed user to wait for some time. As soon as we got response from third party server, we have to inform UI. I tried server solutions and then I came to use of Redis and Synchronous Sidekiq Worker to rescue me.
+I was working on project where I had to update user account on third party server. This process was taking long time(i.e. 3-5 secs). Hence we decided to pass this service on Sidekiq worker and proceed ahead in request flow. Meantime frontend had loader that informed user to wait for some time. As soon as we got response from third party server, we have to inform frontend. I tried server solutions and then I came to use of Redis and Synchronous Sidekiq Worker to rescue me.
 
 #### Solution:
 <br/>
-Sidekiq Workers and UI are not related. Workers are asynchronous. They are running somewhere and UI does not know where. So, basically we need to store the response somewhere and pull out that response back to UI. I used Redis to store sidekiq worker response and pulling out that for UI. There may be other work around.
+Sidekiq Workers and frontend are not related. Workers are asynchronous. They are running somewhere and frontend does not know where. So, basically we need to store the response somewhere and pull out that response back to frontend. I used Redis to store sidekiq worker response and pulling out that for frontend. There may be other work around.
 
 #### Redis and Synchronous Sidekiq Worker:
 <br/>
@@ -28,7 +29,7 @@ $(".btn").on("click",function(){
 
 {% endhighlight %}
 
-This button does ajax call to create method of counter controller. The job for create method is to call HardWorker several time synchronously. The real problem is, we want to inform UI about the response of our hard working guy.
+This button does ajax call to create method of counter controller. The job for create method is to call HardWorker several time synchronously. The real problem is, we want to inform frontend about the response of our hard working guy.
 
 {% highlight ruby %}
 
@@ -73,7 +74,7 @@ myResponse = function(){
 
 {% endhighlight %}
 
-I use ajax call to my counter controller show method with a second span. Here the job for show method is pulling out data from Redis and inform UI about it.
+I use ajax call to my counter controller show method with a second span. Here the job for show method is pulling out data from Redis and inform frontend about it.
 
 {% highlight ruby %}
 
@@ -92,7 +93,7 @@ The data coming from show method response is populating over the page by jQuery.
 This solution has one limitation.
 <ul>
   <li>
-    UI has to know the `key` name that is used to store sidekiq response in Redis
+    frontend has to know the `key` name that is used to store sidekiq response in Redis
   </li>
 </ul>
 
