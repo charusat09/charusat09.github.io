@@ -3,6 +3,7 @@ layout: post
 title:  BigCommerce API authentication
 date:   2016-12-19 8:30:00
 description: how to do authentication for BigCommerce API to access it's resources.
+permalink: /how_to_do_bigcommerce_api_authentication/
 ---
 #### Background:
 <br/>
