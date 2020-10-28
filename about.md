@@ -15,8 +15,8 @@ Jack Sparrow is my favorite character. In my free time I love to watch Pirates o
 <span class="contacticon center">
 	<a href="mailto:mayurt20@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/charusat09" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://in.linkedin.com/in/jlmayur" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="https://twitter.com/jlMayur" target="_blank"><i class="fa fa-twitter-square"></i></a>
+	<a href="https://www.linkedin.com/in/mayurpatidar/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+	<a href="https://twitter.com/mayur_patidar_" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
 <center><a href="http://mayurkumar.info">mayurkumar</a></center>
