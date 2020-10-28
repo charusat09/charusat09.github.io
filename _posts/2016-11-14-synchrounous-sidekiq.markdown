@@ -11,6 +11,7 @@ I was working on project where I had to update user account on third party serve
 
 #### Solution:
 <br/>
+<img src="https://miro.medium.com/max/2287/1*JeWbh_zvuBwuFKqg1fyYbg.jpeg">
 Sidekiq Workers and frontend are not related. Workers are asynchronous. They are running somewhere and frontend does not know where. So, basically we need to store the response somewhere and pull out that response back to frontend. I used Redis to store sidekiq worker response and pulling out that for frontend. There may be other work around.
 
 #### Redis and Synchronous Sidekiq Worker:

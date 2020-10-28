@@ -6,6 +6,15 @@ A simple theme for showcasing your work, emphasis on whitespace, transparency, a
 
 <hr/>
 
+### Install gems
+```
+bundle install
+```
+
+### Run Jekyll Server
+```
+jekyll serve
+```
 
 ## Features
 

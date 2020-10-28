@@ -11,7 +11,7 @@ github_username:  charusat09
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
