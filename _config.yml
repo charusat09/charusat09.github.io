@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   mayurkumar patel, full stack developer
 baseurl:
 url: "http://mayurkumar.info" # the base hostname & protocol for your site
-twitter_username: jlmayur
+twitter_username: mayur_patidar_
 github_username:  charusat09
 
 # Build settings
