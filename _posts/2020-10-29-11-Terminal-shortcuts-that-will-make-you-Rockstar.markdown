@@ -80,4 +80,4 @@ You will receive a PDF in your inbox once a week. It's absolutely FREE!! <a href
 <br/>
 Mayurkumar is helping companies to take the stress out of software development and make their business shine. He has more than eight years of experience in designing and building scalable applications using different technologies.
 
-<center><a href="http://mayurkumar.info" target="_blank">mayurkumar</a></center>
+<center><a href="https://mayurkumar.info" target="_blank">mayurkumar</a></center>

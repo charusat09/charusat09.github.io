@@ -127,4 +127,4 @@ As a response you will get whole product information from <a href="https://gist.
 
 If you have queries then I will happy to help you out. Please reach me out at mayurt20@gmail.com
 
-<center><a href="http://mayurkumar.info" target="_blank">mayurkumar</a></center>
+<center><a href="https://mayurkumar.info" target="_blank">mayurkumar</a></center>
